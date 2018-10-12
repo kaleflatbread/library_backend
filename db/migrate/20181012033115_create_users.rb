@@ -8,7 +8,7 @@ class CreateUsers < ActiveRecord::Migration[5.2]
       t.string :address_line_2
       t.string :address_city
       t.string :address_state
-      t.string :address_zip
+      t.integer :address_zip
       t.string :password_digest
     end
   end
