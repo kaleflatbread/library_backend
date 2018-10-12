@@ -7,3 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 kayla = User.create({email: 'fitzgerald.km11@gmail.com', first_name: 'Kayla', last_name: 'Fitzgerald', password: 'password', address_line_1: '477 3rd St', address_line_2: 'Apt 4b', address_city: 'Brooklyn', address_state: 'NY', address_zip: 11215})
+
+
+
+harrypotter1 = Book.create({title: "Harry Potter and the Sorcerer's Stone", author: 'J.K. Rowling', synopsis: 'Rescued from the outrageous neglect of his aunt and uncle, a young boy with a great destiny proves his worth while attending Hogwarts School for Witchcraft and Wizardry.', rating: 5})

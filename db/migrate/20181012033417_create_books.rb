@@ -5,7 +5,6 @@ class CreateBooks < ActiveRecord::Migration[5.2]
       t.string :author
       t.string :synopsis
       t.integer :rating
-      t.string :author
     end
   end
 end

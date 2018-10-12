@@ -7,4 +7,9 @@ Rails.application.routes.draw do
       resources :users, only: [:index, :create]
     end
   end
+  namespace :api do
+    namespace :v1 do
+      resources :books, only: [:index, :create]
+    end
+  end
 end
